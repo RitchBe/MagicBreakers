@@ -9,9 +9,17 @@
   align-items: center;
   justify-content: center;
 }
-@media screen and (min-width: 320px) and (max-width: 380px) {
+img.banner-logo {
+  height: 300px;
+  width: 300px;
+}
+@media screen and (min-width: 320px) and (max-width: 800px) {
   div.banner {
-    height: 35vh;
+    height: 40vh;
+  }
+  img.banner-logo {
+    width: 200px;
+    height: 200px;
   }
 }
 .banner h1 {

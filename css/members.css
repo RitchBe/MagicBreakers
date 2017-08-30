@@ -6,18 +6,31 @@ img.team-img {
 	box-shadow: 1px 1px 50px lightgrey;
 	margin-left: 10vh;
 }
-
+@media screen and (min-width: 320px) and (max-width: 800px) {
+	img.team-img {
+		margin-left: 0px;
+		width: 300px;
+		height: 300px;
+	}
+}
 
 
 div.acro {
 	background-color: #FFF4F4;
-/*	display: flex;
+	display: flex;
 	align-items: center;
-	justify-content: center;*/
+	justify-content: center;
 	width: 	100%;
 	margin: 0;
 }
-
+@media screen and (min-width: 320px) and (max-width: 800px) {
+	div.acro {
+		flex-direction: column;
+	}
+	div.thib {
+		flex-direction: column-reverse;
+	}
+}
 @media screen and (min-width: 1000px) {
 	div.acro {
 	display: flex;
@@ -34,7 +47,17 @@ p.team-paragraph {
 	color: #6D4352 ;
 	opacity: 0.8;
 	margin-right: 10vh;
+	margin-left: 10vh;
+	padding: 0 50px;
 }
+@media screen and (min-width: 320px) and (max-width: 800px) {
+	p.team-paragraph {
+		margin-right: 0px;
+		margin-left: 0px;
+		padding: 0px;
+		margin-top: 15px;
+	}
+	}
 
 p.right {
 	margin-right: 	0;
