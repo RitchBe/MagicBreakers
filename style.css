@@ -79,7 +79,12 @@ p.who-p {
 	opacity: 0.6;
 	line-height: 2em;
 }
-
+@media screen and (min-width: 320px) and (max-width: 800px) {
+	p.who-p {
+		margin-left: 10vw;
+		margin-right: 10vw;
+	}
+}
 .slideanim {
     visibility: hidden;
 }
