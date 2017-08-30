@@ -1,0 +1,12 @@
+div.contact {
+	display: flex;
+	justify-content: center;
+	align-items: 	center;
+	background-color: 	#CE96AF;
+}
+
+div.contact-content label {
+	color: white;
+	opacity: 	0.6;
+	font-family: 'Faustina', serif;
+}

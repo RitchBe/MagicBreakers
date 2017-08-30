@@ -1,0 +1,113 @@
+@import url("css/banner.css");
+@import url("css/intersection.css");
+@import url("css/members.css");
+@import url("css/gallery.css");
+@import url("css/contact.css");
+
+
+
+
+
+div.who {
+	background-color: #FFFDF9;
+	width: 100%;
+	background-position: bottom bottom;
+	display: flex;
+  	justify-content: center;
+  	padding-top: 50px;
+  	padding-bottom: 100px;
+}
+
+h3 {
+	color: white;
+	font-size: 120%;
+	text-align: center;
+	font-weight: lighter;
+	opacity: 0.6;
+	font-family: 'Faustina', serif;
+}
+h3.team{
+	color: #6D4352 ;
+	opacity: 0,8;
+}
+
+h3.gallery-title {
+	margin-bottom: 50px;
+	color: #6D4352;
+}
+
+h3:before {
+	margin-right: 20px;
+}
+h3:after {
+	margin-left: 20px;
+}
+
+h3:before , h3:after {
+	content: "";
+    border-top: 2px solid white;
+    width: 60px;
+    padding-bottom: 4px;
+    display: inline-block;
+}
+h3.team:before , h3.team:after {
+	border-top: 2px solid #6D4352;
+}
+h3.gallery-title:before, h3.gallery-title:after {
+	border-top: 2px solid #6D4352;
+}
+h1.who-title {
+	text-align: center;
+	/*color: #CEA0AE;*/
+	color: #E08D84;
+	margin: 40px;
+	margin-top: 50px;
+	padding-right: 20vw;
+	padding-left: 20vw;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+p.who-p {
+	text-align: left;
+	font-size: 150%;
+	color: black;
+	margin-left: 25vw;
+	margin-right: 25vw;	
+	margin-top: 50px;
+	font-family: 'Playfair Display', serif;
+	opacity: 0.6;
+	line-height: 2em;
+}
+
+.slideanim {
+    visibility: hidden;
+}
+
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%); 
+    }
+    100% {
+        opacity:1;
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+    }
+}
