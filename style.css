@@ -21,16 +21,12 @@ div.who-content {
 	width: 100%;
 }
 h3 {
-	color: white;
+	color: #6D4352;
 	font-size: 120%;
 	text-align: center;
 	font-weight: lighter;
-	opacity: 0.6;
+	opacity: 0.7;
 	font-family: 'Faustina', serif;
-}
-h3.team{
-	color: #6D4352 ;
-	opacity: 0,8;
 }
 
 h3.gallery-title {
@@ -47,7 +43,7 @@ h3:after {
 
 h3:before , h3:after {
 	content: "";
-    border-top: 2px solid white;
+    border-top: 2px solid #6D4352;
     width: 60px;
     padding-bottom: 4px;
     display: inline-block;
@@ -74,20 +70,35 @@ p.who-p {
 	text-align: left;
 	font-size: 150%;
 	color: black;
-	margin-left: 25vw;
-	margin-right: 25vw;	
+	margin-left: 20vw;
+	margin-right: 20vw;	
 	margin-top: 50px;
 	font-family: 'Playfair Display', serif;
 	opacity: 0.6;
 	line-height: 2em;
 }
-@media screen and (min-width: 320px) and (max-width: 800px) {
+@media screen and (min-width: 320px) and (max-width: 600px) {
+	h1.who-title {
+		margin: 0px;
+		padding-top: 50px;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 403px) {
 	p.who-p {
 		margin-left: 0px;
 		margin-right: 0px;
-		padding: 0 35px;
+		padding: 0 20px;
 		width: 100%;
-		text-align: center
+		text-align: center;
+		font-size: 120%;
+	}
+}
+@media screen and (min-width: 403px) and (max-width: 799px) {
+	p.who-p {
+		margin-left: 15vw;
+		margin-right: 15vw;
+		font-size: 130%;
+		text-align: center;
 	}
 }
 .slideanim {

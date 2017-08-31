@@ -45,6 +45,11 @@ html {
     padding: 4rem;
   }
 }
+@media screen and (max-width: 330px) {
+  .section {
+    padding: 0px;
+  }
+}
 @supports ((display: -ms-grid) or (display: grid)) {
   .section {
     display: block;
