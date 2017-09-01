@@ -6,9 +6,21 @@ img.team-img {
 	box-shadow: 1px 1px 50px lightgrey;
 	margin-left: 10vh;
 }
-@media screen and (min-width: 320px) and (max-width: 800px) {
+
+img.right {
+	margin-right: 10vh;
+	margin-left: 0px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 417px) {
 	img.team-img {
-		margin-left: 0px;
+		width: 250px;
+		height: 250px;
+	}
+}
+
+@media screen and (min-width: 417px) and (max-width: 600px) {
+	img.team-img {
 		width: 300px;
 		height: 300px;
 	}
@@ -30,6 +42,9 @@ div.acro {
 	div.thib {
 		flex-direction: column-reverse;
 	}
+	img.team-img {
+		margin-left: 0px;
+	}
 }
 @media screen and (min-width: 1000px) {
 	div.acro {
@@ -42,26 +57,59 @@ div.acro {
 p.team-paragraph {
 	font-family: 'Playfair Display', serif;
 	font-size: 150%;
-	text-align: left;
-	color: #E08D84;
-	color: #6D4352 ;
-	opacity: 0.8;
+	text-align: justify;
+	color: black;
+	opacity: 0.6;
 	margin-right: 10vh;
 	margin-left: 10vh;
 	padding: 0 50px;
 }
-@media screen and (min-width: 320px) and (max-width: 800px) {
-	p.team-paragraph {
-		margin-right: 0px;
-		margin-left: 0px;
-		padding: 0px;
-		margin-top: 15px;
-	}
-	}
-
 p.right {
 	margin-right: 	0;
 	margin-left: 	10vh;
+}
+
+img.ritchie {
+		margin-bottom: 50px;
+	}
+@media screen and (min-width: 320px) and (max-width: 799px) {
+	p.team-paragraph {
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 50px;
+		text-align: justify;
+	}
+	p.right {
+		margin-left: 0px;
+	}
+
+}
+@media screen and (min-width: 320px) and (max-width: 403px) {
+	p.team-paragraph {
+		padding: 0 30px;
+		font-size: 120%;
+	}
+}
+@media screen and (min-width: 403px) and (max-width: 799px) {
+	p.team-paragraph {
+		padding: 0 40px;
+		font-size: 130%;
+	}
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+	img.team-img {
+		width: 300px;
+		height: 300px;
+	}
+	p.team-paragraph {
+		font-size: 130%;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	p.right {
+		margin-left: 0px;
+	}
 }
 
 div.col-sm-6 {

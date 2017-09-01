@@ -93,10 +93,11 @@ p.who-p {
 		font-size: 120%;
 	}
 }
-@media screen and (min-width: 403px) and (max-width: 799px) {
+@media screen and (min-width: 403px) and (max-width: 600px) {
 	p.who-p {
-		margin-left: 15vw;
-		margin-right: 15vw;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding: 0 30px;
 		font-size: 130%;
 		text-align: center;
 	}
