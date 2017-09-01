@@ -45,7 +45,11 @@ div.acro {
 	img.team-img {
 		margin-left: 0px;
 	}
+	img.right {
+		margin-right: 0px;
+	}
 }
+
 @media screen and (min-width: 1000px) {
 	div.acro {
 	display: flex;
