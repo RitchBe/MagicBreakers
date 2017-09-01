@@ -73,9 +73,7 @@ p.right {
 	margin-left: 	10vh;
 }
 
-img.ritchie {
-		margin-bottom: 50px;
-	}
+
 @media screen and (min-width: 320px) and (max-width: 799px) {
 	p.team-paragraph {
 		margin-left: 0px;
@@ -113,6 +111,11 @@ img.ritchie {
 	}
 	p.right {
 		margin-left: 0px;
+	}
+}
+@media screen and (min-width: 800px) {
+	img.ritchie {
+		margin-bottom: 50px;
 	}
 }
 
