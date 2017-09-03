@@ -156,17 +156,23 @@ h1 {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: black;
+}
+
+
+@media screen and (min-width: 1000px){
+  .item:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  }
+  .item:hover:after {
+  opacity: 0;
+  }
+  .item:after {
+    background-color: black;
   opacity: 0.3;
   -webkit-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
-}
-.item:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-.item:hover:after {
-  opacity: 0;
+  }
 }
 .item--medium {
   -ms-grid-row-span: 2;
