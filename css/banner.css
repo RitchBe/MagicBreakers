@@ -17,7 +17,7 @@ img.banner-logo {
 
 @media screen and (max-width: 330px) {
   div.banner {
-    height: 30vh;
+    height: 40vh;
   }
   img.banner-logo {
     width: 150px;
