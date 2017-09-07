@@ -1,0 +1,323 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"col",
+				"column-reverse"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"slide",
+				"slideanim"
+			],
+			[
+				"space-",
+				"space-between"
+			],
+			[
+				"fle",
+				"flex-start"
+			],
+			[
+				"item",
+				"item--medium"
+			],
+			[
+				"bo",
+				"box-sizing"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"box-s",
+				"box-shadow"
+			],
+			[
+				"border-rad",
+				"border-radius"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"backgroun",
+				"background-origin"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"ba",
+				"background-size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/R_tch/Desktop/MagicBreakers/website/css",
+		"/C/Users/R_tch/Desktop/Programmation/ruby"
+	],
+	"file_history":
+	[
+		"/C/Users/R_tch/Desktop/MagicBreakers/website/style.css",
+		"/C/Users/R_tch/Desktop/MagicBreakers/website/css/members.css",
+		"/C/Users/R_tch/Desktop/money.txt",
+		"/C/Users/R_tch/Desktop/MagicBreakers/website/css/banner.css",
+		"/C/Users/R_tch/Desktop/Programmation/lewagon/git.txt",
+		"/C/Users/R_tch/Desktop/MagicBreakers/website/index.html",
+		"/C/Users/R_tch/Desktop/MagicBreakers/website/css/gallery.css",
+		"/C/Users/R_tch/Desktop/Programmation/bootstrap/company ex/index.html",
+		"/C/Users/R_tch/Desktop/MagicBreakers/website/css/navbar.css",
+		"/C/Users/R_tch/Desktop/Programmation/Becode/index.html",
+		"/C/Users/R_tch/Desktop/Programmation/cookin life/home.html",
+		"/C/Users/R_tch/Desktop/Programmation/502/index.html",
+		"/C/Users/R_tch/Desktop/MagicBreakers/website/css/contact.css",
+		"/C/Users/R_tch/Desktop/MagicBreakers/website/contactform.php",
+		"/C/Users/R_tch/Desktop/MagicBreakers/website/include/fgcontactform.php",
+		"/C/Users/R_tch/Desktop/Programmation/Becode/index.css",
+		"/C/Users/R_tch/Desktop/MagicBreakers/website/color",
+		"/C/Users/R_tch/Desktop/Programmation/cookin life/home.css",
+		"/C/Users/R_tch/Downloads/[www.Cpasbien.pe] ADOBE_AFTEREFFECTS_CC_V2014_MULTI-XFORCE/Crack-Windows/install.txt",
+		"/C/Users/R_tch/Desktop/MagicBreakers/website/css/intersection.css",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/R_tch/Desktop/Programmation/lewagon/Webcomponant/index.html",
+		"/C/Users/R_tch/Desktop/Programmation/lewagon/2hours-landing/style.css",
+		"/C/Users/R_tch/Desktop/Programmation/lewagon/2hours-landing/index.html",
+		"/C/Users/R_tch/Desktop/Programmation/lewagon/2hours-landing/goals.txt",
+		"/C/Users/R_tch/Desktop/MagicBreakers/Taches.txt",
+		"/C/Users/R_tch/Desktop/MagicBreakers/IdeeVideo.txt"
+	],
+	"find":
+	{
+		"height": 64.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"shado",
+			"slide",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 39.0
+	},
+	"input":
+	{
+		"height": 55.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "magic breakers.sublime-project",
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 304.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

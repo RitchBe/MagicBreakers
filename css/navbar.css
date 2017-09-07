@@ -1,0 +1,21 @@
+ .navbar {
+      margin-bottom: 0;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      border-radius: 0;
+    }
+
+
+
+    .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: white !important;
+      background: #93577E !important;
+      box-shadow: 1px 1px 20px #832161;
+    }
+
+    .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+    }
