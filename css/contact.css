@@ -1,8 +1,9 @@
-div.contact {
+div.contact-content {
 	display: flex;
 	justify-content: center;
 	align-items: 	center;
-	background-color: 	#CE96AF;
+  flex-direction: column;
+
 }
 
 div.contact-content label {
@@ -10,3 +11,33 @@ div.contact-content label {
 	opacity: 	0.6;
 	font-family: 'Faustina', serif;
 }
+
+div.contact {
+  height: 100vh;
+  background-color: #E08D84;
+  padding-top: 50px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+h3.contact-title {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.h4-label {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #6D4352;
+}
+div.contact-row {
+  display: flex;
+
+}
+
+div.contact-content > h4 > a {
+  color: #F3D9DC !important;
+  margin-bottom: 20px;
+}
+

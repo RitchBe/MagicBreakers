@@ -32,7 +32,6 @@ h3 {
 }
 
 h3.gallery-title {
-	margin-bottom: 50px;
 	color: #6D4352;
 }
 
@@ -68,12 +67,13 @@ h1.who-title {
 	font-weight: bold;
 }
 
+
 p.who-p {
 	text-align: left;
 	font-size: 150%;
 	color: black;
 	margin-left: 20vw;
-	margin-right: 20vw;	
+	margin-right: 20vw;
 	margin-top: 50px;
 	font-family: 'Montserrat', sans-serif;
 	opacity: 0.6;
@@ -119,7 +119,7 @@ p.who-p {
 @keyframes slide {
     0% {
         opacity: 0;
-        transform: translateY(70%); 
+        transform: translateY(70%);
     }
     100% {
         opacity:1;
@@ -135,4 +135,37 @@ p.who-p {
     opacity: 1;
     -webkit-transform: translateY(0%);
     }
+}
+
+div.gallery-2 {
+  height: 100vh;
+  padding-top: 50px;
+}
+
+div.item {
+  height: 100vh !important;
+  width: auto;
+}
+
+div.item > img {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-height: 80vh;
+  width: auto;
+}
+
+
+
+
+.carousel-control {
+  background-image: none !important;
+  height: 85vh;
+}
+
+ol.carousel-indicators {
+  bottom: 158px;
 }
