@@ -13,7 +13,6 @@ body {
   overflow-x: hidden;
 }
 div.who {
-  height: 100vh;
 	background-color: #FFFDF9;
 	width: 100%;
 	background-position: bottom bottom;
