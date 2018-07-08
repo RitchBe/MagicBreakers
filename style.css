@@ -13,10 +13,12 @@ body {
   overflow-x: hidden;
 }
 div.who {
+  height: 100vh;
 	background-color: #FFFDF9;
 	width: 100%;
 	background-position: bottom bottom;
 	display: flex;
+    align-items: center;
   	justify-content: center;
   	padding-top: 50px;
   	padding-bottom: 100px;
