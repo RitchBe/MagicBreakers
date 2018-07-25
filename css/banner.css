@@ -24,7 +24,6 @@ img.banner-logo {
   width: 100vw;
   height: 100vh;
   object-fit: fill;
-  background-image: url("../banner.jpg");
 }
 
 .over-video {
