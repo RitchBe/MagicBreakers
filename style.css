@@ -36,6 +36,7 @@ h3 {
 
 h3.gallery-title {
 	color: #6D4352;
+  padding-top: 25px;
 }
 
 h3:before {
@@ -141,7 +142,6 @@ p.who-p {
 
 div.gallery-2 {
   height: 100vh;
-  padding-top: 50px;
 }
 
 div.item {
