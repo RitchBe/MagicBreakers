@@ -44,7 +44,7 @@ img.banner-logo {
 @media screen and (max-width: 330px) {
   div.banner {
     height: 40vh;
-    background-image: cover;
+    background-size: cover;
   }
     div.banner-content {
     height: 40vh;
@@ -65,7 +65,7 @@ img.banner-logo {
 @media screen and (min-width: 330px) and (max-width: 490px) {
   div.banner {
     height: 40vh;
-    background-image: cover;
+    background-size: cover;
 
   }
     .banner-video {
@@ -86,8 +86,8 @@ img.banner-logo {
 @media screen and (min-width: 490px) and (max-width: 499px) {
   div.banner {
     height: 45vh;
-    background-image: cover;
-    
+    background-size: cover;
+
   }
       div.banner-content {
     height: 40vh;
