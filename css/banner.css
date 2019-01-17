@@ -1,14 +1,20 @@
 .banner {
   color: white;
   text-align: center;
-  height: 100vh;
+  height: calc(100vh - 50px) ;
+  width: 100vw;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
-  background-size: cover !important;
+  background-size: 100vw 100vh;
   background-position: bottom;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-repeat: no-repeat;
+  margin-top: 50px;
 
+}
+.banner-img {
+  width: 100%;
 }
 img.banner-logo {
   height: 300px;
@@ -38,6 +44,7 @@ img.banner-logo {
 @media screen and (max-width: 330px) {
   div.banner {
     height: 40vh;
+    background-image: cover;
   }
     div.banner-content {
     height: 40vh;
@@ -58,6 +65,8 @@ img.banner-logo {
 @media screen and (min-width: 330px) and (max-width: 490px) {
   div.banner {
     height: 40vh;
+    background-image: cover;
+
   }
     .banner-video {
     height: 40vh;
@@ -77,6 +86,8 @@ img.banner-logo {
 @media screen and (min-width: 490px) and (max-width: 499px) {
   div.banner {
     height: 45vh;
+    background-image: cover;
+    
   }
       div.banner-content {
     height: 40vh;
@@ -112,4 +123,3 @@ img.banner-logo {
   width: 300px;
   height: ` 300px;
 }
-

@@ -2,7 +2,7 @@
 img.team-img {
 	max-height: 400px;
 	max-width: 400px;
-  
+
 	border-radius: 	5px;
 	box-shadow: 1px 1px 50px lightgrey;
 	margin-left: 10vh;
@@ -61,7 +61,7 @@ div.acro {
 
 p.team-paragraph {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 150%;
+	font-size: 120%;
 	color: black;
 	opacity: 0.4;
 	margin-right: 10vh;
