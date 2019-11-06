@@ -4,6 +4,7 @@
 @import url("css/gallery.css");
 @import url("css/contact.css");
 @import url("css/navbar.css");
+@import url('css/festival.css');
 
 
 
@@ -33,6 +34,8 @@ h3 {
 	opacity: 0.7;
 	font-family: 'Faustina', serif;
 }
+
+
 
 h3.gallery-title {
 	color: #6D4352;
@@ -71,6 +74,14 @@ h1.who-title {
 
 }
 
+h3.festival-title {
+  margin-top: 50px;
+  color: #F3D9DC;
+}
+
+h3.festival-title:before, h3.festival-title:after {
+  border-top: 2px solid #F3D9DC; 
+}
 
 p.who-p {
 	text-align: left;

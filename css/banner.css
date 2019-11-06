@@ -5,7 +5,7 @@
   width: 100vw;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,6 +24,16 @@ img.banner-logo {
 
 .banner-content {
   display:  none;
+}
+
+a.link_to_bottom {
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+span.arrow {
+  color: #902735;
+  font-size: 40px;
 }
 
 .banner-video {
