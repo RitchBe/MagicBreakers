@@ -53,7 +53,24 @@ div.logo-fest-div {
     margin-right: 15px;
 }
 
-@media screen and (max-width: 900px ) {
+@media screen and (max-width: 600px ) {
+    div.logo-fest-div img {
+        height: 30px;
+     }
+
+     div.logo-fest-div img.square {
+        height: 40px;
+    }
+    div.logo-fest-div img.waterloo {
+        height: 35px;
+    }
+    div.logo-fest-div img.basch {
+        height: 35px;
+    }
+}
+
+
+@media screen and (min-width: 600px) and  (max-width: 900px ) {
     div.logo-fest-div img {
         height: 50px;
      }
