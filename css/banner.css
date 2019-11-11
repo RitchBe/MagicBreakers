@@ -29,6 +29,7 @@ img.banner-logo {
 a.link_to_bottom {
   align-self: flex-end;
   margin-bottom: 20px;
+  z-index: 10;
 }
 
 span.arrow {
